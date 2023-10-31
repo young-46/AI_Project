@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "young-project"
+version = "0.1.0"
+description = ""
+authors = ["young-46 <pink495sy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.14.0"
+flask = "^3.0.0"
+pyqt5-tools = "^5.15.9.3.3"
+webdriver-manager = "^4.0.1"
+pyqt5designer = "^5.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
